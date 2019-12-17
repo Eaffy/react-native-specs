@@ -1,0 +1,32 @@
+{
+  "name": "react-native-picker",
+  "version": "4.3.7",
+  "summary": "A Native Picker with high performance.",
+  "authors": {
+    "name": "zooble"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/beefe/react-native-picker",
+  "source": {
+    "git": "https://github.com/Eaffy/react-native-picker.git",
+    "tag": "4.3.7"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "preserve_paths": "*.js",
+  "subspecs": [
+    {
+      "name": "Core",
+      "dependencies": {
+        "React": [
+
+        ]
+      },
+      "source_files": "ios/RCTBEEPickerManager/*.{h,m}",
+      "public_header_files": [
+        "ios/RCTBEEPickerManager/*.h"
+      ]
+    }
+  ]
+}

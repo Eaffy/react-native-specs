@@ -1,0 +1,26 @@
+{
+  "name": "react-native-text-input-mask",
+  "version": "1.0.4",
+  "summary": "Bridge files of iOS react-native-text-input-mask",
+  "homepage": "https://github.com/react-native-community/react-native-text-input-mask",
+  "license": "MIT",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "frameworks": "UIKit",
+  "requires_arc": true,
+  "source": {
+    "git": "https://github.com/react-native-community/react-native-text-input-mask.git"
+  },
+  "source_files": [
+    "ios/*.{h,m}"
+  ],
+  "dependencies": {
+    "React": [
+
+    ],
+    "InputMask": [
+        
+    ]
+  }
+}
