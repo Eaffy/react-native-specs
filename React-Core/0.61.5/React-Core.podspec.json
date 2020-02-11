@@ -21,7 +21,7 @@
     "HEADER_SEARCH_PATHS": "\"$(PODS_TARGET_SRCROOT)/ReactCommon\" \"$(PODS_ROOT)/boost-for-react-native\" \"$(PODS_ROOT)/DoubleConversion\" \"$(PODS_ROOT)/Folly\""
   },
   "user_target_xcconfig": {
-    "HEADER_SEARCH_PATHS": "\"$(PODS_ROOT)/Headers/Private/React-Core\""
+    "HEADER_SEARCH_PATHS": "\"$(PODS_ROOT)//Private/React-Core\""
   },
   "default_subspecs": "Default",
   "dependencies": {
@@ -98,7 +98,7 @@
       }
     },
     {
-      "name": "ARTHeaders",
+      "name": "ART",
       "source_files": "Libraries/ART/**/*.h",
       "dependencies": {
         "React-Core/Default": [
@@ -107,7 +107,7 @@
       }
     },
     {
-      "name": "CoreModulesHeaders",
+      "name": "CoreModules",
       "source_files": "React/CoreModules/**/*.h",
       "dependencies": {
         "React-Core/Default": [
@@ -116,7 +116,7 @@
       }
     },
     {
-      "name": "RCTActionSheetHeaders",
+      "name": "RCTActionSheet",
       "source_files": "Libraries/ActionSheetIOS/*.h",
       "dependencies": {
         "React-Core/Default": [
@@ -125,7 +125,7 @@
       }
     },
     {
-      "name": "RCTAnimationHeaders",
+      "name": "RCTAnimation",
       "source_files": "Libraries/NativeAnimation/{Drivers/*,Nodes/*,*}.{h}",
       "dependencies": {
         "React-Core/Default": [
@@ -134,7 +134,7 @@
       }
     },
     {
-      "name": "RCTBlobHeaders",
+      "name": "RCTBlob",
       "source_files": "Libraries/Blob/{RCTBlobManager,RCTFileReaderModule}.h",
       "dependencies": {
         "React-Core/Default": [
@@ -143,7 +143,7 @@
       }
     },
     {
-      "name": "RCTImageHeaders",
+      "name": "RCTImage",
       "source_files": "Libraries/Image/*.h",
       "dependencies": {
         "React-Core/Default": [
@@ -152,7 +152,7 @@
       }
     },
     {
-      "name": "RCTLinkingHeaders",
+      "name": "RCTLinking",
       "source_files": "Libraries/LinkingIOS/*.h",
       "dependencies": {
         "React-Core/Default": [
@@ -161,7 +161,7 @@
       }
     },
     {
-      "name": "RCTNetworkHeaders",
+      "name": "RCTNetwork",
       "source_files": "Libraries/Network/*.h",
       "dependencies": {
         "React-Core/Default": [
@@ -170,7 +170,7 @@
       }
     },
     {
-      "name": "RCTPushNotificationHeaders",
+      "name": "RCTPushNotification",
       "source_files": "Libraries/PushNotificationIOS/*.h",
       "dependencies": {
         "React-Core/Default": [
@@ -179,7 +179,7 @@
       }
     },
     {
-      "name": "RCTSettingsHeaders",
+      "name": "RCTSettings",
       "source_files": "Libraries/Settings/*.h",
       "dependencies": {
         "React-Core/Default": [
@@ -188,7 +188,7 @@
       }
     },
     {
-      "name": "RCTTextHeaders",
+      "name": "RCTText",
       "source_files": "Libraries/Text/**/*.h",
       "dependencies": {
         "React-Core/Default": [
@@ -197,7 +197,7 @@
       }
     },
     {
-      "name": "RCTVibrationHeaders",
+      "name": "RCTVibration",
       "source_files": "Libraries/Vibration/*.h",
       "dependencies": {
         "React-Core/Default": [
