@@ -13,6 +13,6 @@
     "git": "https://github.com/facebook/react-native.git",
     "tag": "v0.61.5"
   },
-  "source_files": "*.{cpp,h}",
+  "source_files": "ReactCommon/jsinspector/*.{cpp,h}",
   "header_dir": "jsinspector"
 }
