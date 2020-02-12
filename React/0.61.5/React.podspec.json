@@ -553,8 +553,8 @@
         "React/jsi": [
 
         ],
-        "ReactCommon/turbomodule/core": [
-          "0.61.5"
+        "React/turbomodule": [
+          
         ]
       }
     },
@@ -584,7 +584,10 @@
       "name": "FBLazyVector",
       "source_files": "Libraries/FBLazyVector/**/*.{c,h,m,mm,cpp}",
       "header_dir": "FBLazyVector"
+    },
+    {
+      "name": "turbomodule",
+      "source_files": "ReactCommon/turbomodule/core/**/**/*.{c,h,m,mm,cpp}",
     }
-
   ]
 }
