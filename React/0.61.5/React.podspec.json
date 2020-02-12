@@ -30,7 +30,7 @@
       "name": "Core",
       "dependencies": {
         "yoga": [
-          "0.61.5.React"
+          "1.14.0"
         ]
       },
       "source_files": "React/**/*.{c,h,m,mm,S,cpp}",
