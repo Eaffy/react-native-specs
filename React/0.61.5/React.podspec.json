@@ -541,10 +541,10 @@
         "Folly": [
           "2018.10.22.00"
         ],
-        "RCTRequired": [
+        "React/RCTRequired": [
           
         ],
-        "RCTTypeSafety": [
+        "React/RCTTypeSafety": [
             
         ],
         "React/Core": [
@@ -562,13 +562,13 @@
       "name": "RCTTypeSafety",
       "source_files": "Libraries/RCTTypeSafety/*.{c,h,m,mm,cpp}",
       "dependencies": {
-        "FBLazyVector": [
+        "React/FBLazyVector": [
           
         ],
         "Folly": [
           "2018.10.22.00"
         ],
-        "RCTRequired": [
+        "React/RCTRequired": [
           
         ],
         "React/Core": [
