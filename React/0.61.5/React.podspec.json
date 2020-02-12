@@ -587,7 +587,7 @@
     },
     {
       "name": "turbomodule",
-      "source_files": "ReactCommon/turbomodule/core/**/**/*.{c,h,m,mm,cpp}"
+      "source_files": "ReactCommon/turbomodule/core/**/ios/*.{c,h,m,mm,cpp}"
     }
   ]
 }
