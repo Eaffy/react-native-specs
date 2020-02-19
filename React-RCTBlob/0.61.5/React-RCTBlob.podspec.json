@@ -14,8 +14,8 @@
     "tag": "v0.61.5"
   },
   "source_files": [
-    "*.{m,mm}",
-    "RCTBlobCollector.h"
+    "Libraries/Blob/*.{m,mm}",
+    "Libraries/Blob/RCTBlobCollector.h"
   ],
   "preserve_paths": [
     "package.json",

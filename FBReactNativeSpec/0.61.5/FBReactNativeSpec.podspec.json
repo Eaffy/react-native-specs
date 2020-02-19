@@ -14,7 +14,7 @@
     "git": "https://github.com/facebook/react-native.git",
     "tag": "v0.61.5"
   },
-  "source_files": "**/*.{c,h,m,mm,cpp}",
+  "source_files": "Libraries/FBReactNativeSpec/**/*.{c,h,m,mm,cpp}",
   "header_dir": "FBReactNativeSpec",
   "pod_target_xcconfig": {
     "USE_HEADERMAP": "YES",

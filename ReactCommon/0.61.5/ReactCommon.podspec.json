@@ -24,7 +24,7 @@
   "subspecs": [
     {
       "name": "jscallinvoker",
-      "source_files": "jscallinvoker/**/*.{cpp,h}",
+      "source_files": "ReactCommon/jscallinvoker/**/*.{cpp,h}",
       "dependencies": {
         "React-cxxreact": [
           "0.61.5"
@@ -69,15 +69,15 @@
         {
           "name": "core",
           "source_files": [
-            "turbomodule/core/*.{cpp,h}",
-            "turbomodule/core/platform/ios/*.{mm,cpp,h}"
+            "ReactCommon/turbomodule/core/*.{cpp,h}",
+            "ReactCommon/turbomodule/core/platform/ios/*.{mm,cpp,h}"
           ]
         },
         {
           "name": "samples",
           "source_files": [
-            "turbomodule/samples/*.{cpp,h}",
-            "turbomodule/samples/platform/ios/*.{mm,cpp,h}"
+            "ReactCommon/turbomodule/samples/*.{cpp,h}",
+            "ReactCommon/turbomodule/samples/platform/ios/*.{mm,cpp,h}"
           ],
           "dependencies": {
             "ReactCommon/turbomodule/core": [
