@@ -13,6 +13,6 @@
     "git": "https://github.com/facebook/react-native.git",
     "tag": "v0.61.5"
   },
-  "source_files": "Libraries/RCTRequired**/*.{c,h,m,mm,cpp}",
+  "source_files": "Libraries/RCTRequired/**/*.{c,h,m,mm,cpp}",
   "header_dir": "RCTRequired"
 }
