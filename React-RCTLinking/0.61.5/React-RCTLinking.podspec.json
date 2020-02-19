@@ -16,7 +16,6 @@
   },
   "source_files": "Libraries/LinkingIOS/*.{m}",
   "preserve_paths": [
-    "package.json",
     "LICENSE",
     "LICENSE-docs"
   ],

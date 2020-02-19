@@ -15,7 +15,6 @@
   },
   "source_files": "{Libraries/NativeAnimation/Drivers/*,Libraries/NativeAnimation/Nodes/*,Libraries/NativeAnimation/*}.{m}",
   "preserve_paths": [
-    "package.json",
     "LICENSE",
     "LICENSE-docs"
   ],
